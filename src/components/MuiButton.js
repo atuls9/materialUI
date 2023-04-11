@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Button, IconButton } from "@mui/material";
+import { Stack, Button, IconButton, ButtonGroup } from "@mui/material";
 import AddCircleRoundedIcon from "@mui/icons-material/AddCircleRounded";
 
 const MuiButton = () => {
@@ -59,26 +59,7 @@ const MuiButton = () => {
           success
         </Button>
       </Stack>
-      <Stack spacing={2} direction="row">
-        <Button variant="outlined" color="primary">
-          primary
-        </Button>
-        <Button variant="outlined" color="secondary">
-          secondary
-        </Button>
-        <Button variant="outlined" color="error">
-          error
-        </Button>
-        <Button variant="outlined" color="info">
-          info
-        </Button>
-        <Button variant="outlined" color="warning">
-          warning
-        </Button>
-        <Button variant="outlined" color="success">
-          success
-        </Button>
-      </Stack>
+
       <Stack display="block" spacing={2} direction="row">
         {/* if  display="block" is not defined then by default display = 'flex' which shows all buttons of equal size*/}
         <Button variant="contained" size="small">
@@ -115,6 +96,32 @@ const MuiButton = () => {
         <IconButton aria-label="add" color="secondary" size="large">
           <AddCircleRoundedIcon />
         </IconButton>
+      </Stack>
+
+      {/* ButtonGroup */}
+      <h5>Button Group</h5>
+      <Stack direction="row" spacing={2}>
+        <ButtonGroup
+          variant="outlined"
+          orientation="vertical"
+          size="large"
+          color="secondary"
+        >
+          <Button>primary</Button>
+          <Button>secondary</Button>
+          <Button>error</Button>
+        </ButtonGroup>
+      </Stack>
+      <Stack>
+        <ButtonGroup variant="contained" orientation="row" size="small">
+          <Button color="info" onClick={() => alert("clicked on info")}>
+            info
+          </Button>
+          <Button color="warning">warning</Button>
+          <Button color="success" onClick={() => alert("clicked on success")}>
+            success
+          </Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   );
