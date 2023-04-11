@@ -143,6 +143,9 @@ const MuiButton = () => {
           aria-label="text formatting"
           value={format}
           onChange={handleFormatChange}
+          size="small"
+          orientation="vertical"
+          color="secondary"
         >
           <ToggleButton value="bold" aria-label="bold">
             <FormatBoldIcon />
