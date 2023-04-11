@@ -20,6 +20,8 @@ const ToggleButtonsGroup = () => {
       value={formats}
       onChange={handleFormat}
       aria-label="text formatting"
+      // exclusive for choose one from three toggle button
+      exclusive
     >
       <ToggleButton value="bold" aria-label="bold">
         <FormatBoldIcon />

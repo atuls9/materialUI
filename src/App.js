@@ -1,14 +1,16 @@
 import "./App.css";
-// import MuiButton from "./components/MuiButton";
-import ToggleButtonsGroup from "./components/ToggleButtonsGroup";
 // import { MuiTypography } from "./components/MuiTypography";
+// import MuiButton from "./components/MuiButton";
+// import ToggleButtonsGroup from "./components/ToggleButtonsGroup";
+import MuiTextField from "./components/MuiTextField";
 
 function App() {
   return (
     <div className="App">
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
-      <ToggleButtonsGroup />
+      {/* <ToggleButtonsGroup /> */}
+      <MuiTextField />
     </div>
   );
 }
