@@ -7,4 +7,4 @@
 // 7. MuiCheckbox
 // 8. MuiMultipleCheckbox
 // 9. MuiSwitch
-// 10. MuiLayout = box,
+// 10. MuiLayout = box,Stack, Grid

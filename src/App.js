@@ -8,7 +8,8 @@ import "./App.css";
 // import MuiCheckbox from "./components/MuiCheckbox";
 // import MuiMultipleCheckbox from "./components/MuiMultipleCheckbox";
 // import MuiSwitch from "./components/MuiSwitch";
-import MuiBox from "./components/MuiBox";
+// import MuiBox from "./components/MuiBox";
+import MuiGrid from "./components/MuiGrid";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <MuiCheckbox /> */}
       {/* <MuiMultipleCheckbox /> */}
       {/* <MuiSwitch /> */}
-      <MuiBox />
+      {/* <MuiBox /> */}
+      <MuiGrid />
     </div>
   );
 }
