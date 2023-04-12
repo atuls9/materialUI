@@ -54,6 +54,8 @@ const MuiSwitch = () => {
             <Switch
               checked={multiMode.includes("javascript")}
               onChange={handleMultiMode}
+              size="small"
+              color="secondary"
             />
           }
         />
